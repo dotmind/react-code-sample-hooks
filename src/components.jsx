@@ -2,6 +2,7 @@ import SampleState from './sample/state';
 import SampleProps from './sample/props';
 import SampleClassVsFunc from './sample/class-vs-func';
 import SampleHooks from './sample/hooks';
+import SampleReservedProps from './sample/reserved-props';
 
 const components = [
   {
@@ -15,6 +16,10 @@ const components = [
   {
     hash: 'sample/class-vs-func',
     render: () => <SampleClassVsFunc />,
+  },
+  {
+    hash: 'sample/reserved-props',
+    render: () => <SampleReservedProps />,
   },
   {
     hash: 'sample/hooks',
